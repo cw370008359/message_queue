@@ -1,0 +1,9 @@
+alikafka:
+  bootstrap_servers: kafka-cn-internet.aliyun.com:8080
+  topic: alikafka-topic-demo
+  group_id: CID_alikafka_group_danhe
+  ssl_truststore_location: D:\\config\\kafka.client.truststore.jks
+  java_security_auth_login_config: D:\config\kafka_client_jaas.conf
+
+server:
+  port: 8081
